@@ -1,0 +1,46 @@
+                     RESTAURANT LISTING App
+    -------------------------------------------------------
+
+1.  Create a new application : npx create-react-app restaurant -listing-app
+2. cd restaurant -listing-app
+3. code 
+4. Run the application
+5. clean the code
+6. Choose a Theme using bootswatch - https://bootswatch.com/  and import in index.js
+7. Copy paste fontawsome cdnjs into the index.js
+8. Copy paste google fonts into index.js
+9. Install react bootstrap
+
+10. Component creation - 
+    ->Components
+        ->Header
+            Header.jsx
+            Header.css
+
+11. Backend server creation
+12. API Fetching - axios
+        Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase). 
+        On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.
+        Features:
+           -> Make XMLHttpRequests from the browser
+           -> Make http requests from node.js
+           -> Supports the Promise API
+           -> Intercept request and response
+           -> Transform request and response data
+           -> Cancel requests
+        Install
+            ->npm install axios
+        useEffect
+        The useEffect hook allows you to perform side effects in your Components.
+
+        ->Path setup
+            -> React Router Dom  -    npm i react-router-dom
+
+            -> Browser Router ->   Used to setup app routing
+            -> Routes ->    To hold more than one Route (Used to hold multiple Components)
+            -> Route -> Used to setup a Component Path
+
+        -> useParams() - React hook
+        In our React app sometimes we want to access the parameters of the current route in this case useParams hook comes into action. The react-router-dom package has useParams hooks that let you access the parameters of the current route.
+
+    
